@@ -1,0 +1,94 @@
+/******
+N Ouriach
+User Conversion Tech Test
+July 2019
+******/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #eff2f5;
+  font-family: Calibre,helvetica,sans-serif;
+  font-size: 21px;
+  font-size: 2.1rem;
+  line-height: 1.42857;
+}
+
+#content-container {
+  
+  display: flex;
+  flex-direction: row;
+ 
+/*   background: #fff; */
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-evenly;
+  margin: 10px;
+
+ 
+}
+
+.inner p {
+   text-transform: uppercase;
+}
+
+.author {
+  color: #d0d3d5;
+}
+
+a {
+  color: #2AB4EE;
+  text-decoration: none;
+}
+
+.post {
+  width: 32%;
+  border-bottom: 1px solid #d6dee2;  
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  background: white;
+  
+  padding: 1%;
+  
+  display: flex;
+  justify-content:  space-evenly;
+}
+
+.inner {
+  
+/*   width: 20%;
+  height: 20%; */
+
+}
+
+.post .author-date {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 800;
+  text-transform: uppercase;  
+}
+
+header h2 {
+  border-bottom: 1px solid;
+  color: #2AB4EE;  
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.assoc-cats p {
+  color: #d0d3d5;
+  text-transform: uppercase;
+
+}
+
