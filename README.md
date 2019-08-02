@@ -9,6 +9,7 @@ DIRECTIONS
 2. Open the console
 3. Paste JavaScript code into the console and hit enter
 4. The homepage will display the update code and functionaility
+5. If desired, CSS can be view via the style.css file
 
 ---------------------------------------------
 
